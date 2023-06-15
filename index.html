@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Player by Urniv Bosu</title>
+        <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="mypic.jpg" alt="Spotify"></li>
+            <li class="brand"> Music Player</li>
+            <li>Developed by Urniv Bosu (Vellore Institute of Technology)</li>
+            <li class="brand"><a href="https://www.instagram.com/urniv_bosu/?hl=en"><img src="insta.png" alt="instagram"></a></li>
+            <li class="brand"><a href="https://www.facebook.com/rony.bosu.96"><img src="fb.png" alt="Facebook"></a></li>
+            <li class="brand"><a href="https://www.linkedin.com/in/urniv-bosu-6b4a79236/"><img src="linkedin.png" alt="LinkedIn"></a></li>
+            <li class="brand"><a href="https://github.com/urnivbosu"><img src="github.png" alt="Github"></a></li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+            <li> </li>
+            
+            <li ><a href = "mailto: ronybosu5rb@gmail.com">Send me a feedback</a></li>
+            
+        </ul>
+        
+    </nav>
+    
+    <div class="container">
+        <div class="songList">
+            <h1 id="urniv">Where words fail, music speaks....</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Ajeeb Dastan hai ye</span>
+                    <span class="songlistplay"><span class="timestamp">05:03 <i id="0" class="far songItemPlay fa fa-play-circle" style="font-size:35px;color:rgb(61, 160, 203)"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Jaane ja dhoondta fir raga</span>
+                    <span class="songlistplay"><span class="timestamp">05:55 <i id="1" class="far songItemPlay fa fa-play-circle" style="font-size:35px;color:rgb(61, 160, 203)"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Ye kya hua</span>
+                    <span class="songlistplay"><span class="timestamp">04:22 <i id="2" class="far songItemPlay fa fa-play-circle" style="font-size:35px;color:rgb(61, 160, 203)"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Ye wada raha</span>
+                    <span class="songlistplay"><span class="timestamp">06:30 <i id="3" class="far songItemPlay fa fa-play-circle" style="font-size:35px;color:rgb(61, 160, 203)"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Roop tera mastana</span>
+                    <span class="songlistplay"><span class="timestamp">03:44 <i id="4" class="far songItemPlay fa fa-play-circle" style="font-size:35px;color:rgb(61, 160, 203)"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">O mere dil ke chain </span>
+                    <span class="songlistplay"><span class="timestamp">04:35 <i id="5" class="far songItemPlay fa fa-play-circle" style="font-size:35px;color:rgb(61, 160, 203)"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Jab koi baat bigad jaye</span>
+                    <span class="songlistplay"><span class="timestamp">07:57 <i id="6" class="far songItemPlay fa fa-play-circle" style="font-size:35px;color:rgb(61, 160, 203)"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Pyar deewana hota hai</span>
+                    <span class="songlistplay"><span class="timestamp">04:44 <i id="7" class="far songItemPlay fa fa-play-circle" style="font-size:35px;color:rgb(61, 160, 203)"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Mere mehboob</span>
+                    <span class="songlistplay"><span class="timestamp">03:48 <i id="8" class="far songItemPlay fa fa-play-circle" style="font-size:35px;color:rgb(61, 160, 203)"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Hothon se chulu</span>
+                    <span class="songlistplay"><span class="timestamp">04:53 <i id="9" class="far songItemPlay fa fa-play-circle" style="font-size:35px;color:rgb(61, 160, 203)"></i> </span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <!-- <button style="font-size:24px">Back <i class="fa fa-step-backward" id="previous"></i></button> -->
+            <!--<i class="fas fa-3x fa-step-backward" id="previous"></i>-->
+            <!-- <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>  -->
+            <button style="font-size:30px" id="previous"><i class="fa fa-step-backward" id="previous"></i>BACK</button>
+            <button style="font-size:30px" ><i class="fa fa-step-circle" id="masterPlay"></i></button>
+            <button style="font-size:30px" id="next">NEXT<i class="fa fa-step-forward" id="next"></i></button>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="60px" alt="" id="gif"> <span id="masterSongName">Click on the Play button to enjoy the songs...</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>
